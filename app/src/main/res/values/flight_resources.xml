@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Sample data retained from FlightScry's flow branch. -->
+    <string name="fs_brand">Skyscanner</string>
+    <string name="fs_title">Your flight itinerary</string>
+    <string name="fs_subtitle">All your journey details in one place.</string>
+
+    <string name="fs_flight">Flight</string>
+    <string name="fs_flight_number">DL 177</string>
+    <string name="fs_route">Seattle → Split</string>
+
+    <string name="fs_departure">Departure</string>
+    <string name="fs_departure_code">SEA</string>
+    <string name="fs_departure_airport">Seattle–Tacoma International Airport</string>
+    <string name="fs_departure_time">10:45 AM</string>
+
+    <string name="fs_arrival">Arrival</string>
+    <string name="fs_arrival_code">SPU</string>
+    <string name="fs_arrival_airport">Split Airport</string>
+    <string name="fs_arrival_time">10:50 PM</string>
+
+    <string name="fs_local_time">Local time</string>
+    <string name="fs_footer">Sample itinerary for a learning project.\nNot live flight information.</string>
+
+    <!-- Backpack provides light and dark colour variants. -->
+    <style name="Theme.FlightItinerary"
+        parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/bpkCoreAccent</item>
+        <item name="colorPrimaryDark">@color/bpkCorePrimary</item>
+        <item name="colorAccent">@color/bpkCoreAccent</item>
+        <item name="android:windowBackground">@color/bpkCanvasContrast</item>
+    </style>
+
+    <style name="FsHeading" parent="bpkTextHeading1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/bpkTextPrimary</item>
+    </style>
+
+    <style name="FsBody" parent="bpkTextHeading3">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/bpkTextSecondary</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="FsAirportCode" parent="bpkTextHeading1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/bpkTextLink</item>
+        <item name="android:textSize">40sp</item>
+    </style>
+
+    <style name="FsTime" parent="bpkTextHeading2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/bpkTextPrimary</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+</resources>
